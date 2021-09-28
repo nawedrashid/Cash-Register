@@ -27,6 +27,7 @@ function showMessage(msg){
 }
 function hideMessage(){;
     message.style.display="none";
+    Output.style.display="none";
 }
 function calculateChange(AmounttobeReturned){
     for(let i=0;i<availableNotes.length;i++){
