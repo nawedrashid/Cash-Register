@@ -10,11 +10,15 @@ body {
     font-family: 'Style Script', cursive;
 }
 h1{
-    padding: 25px 0px;
-    box-sizing: border-box;
-    font-style: italic;
-    font-size: 35px;
+    width: 100%;
     font-weight: bold;
+    padding: 25px 40px;
+    margin: auto;
+    align-items: center;
+    box-shadow: 0px 10px 30px black;
+    justify-content: space-between;
+    background: linear-gradient(to bottom right,rgb(45,200,500),teal,rgb(45,200,500));
+    font-family: 'Style Script', cursive;
 }
 .box {
     box-shadow: -10px 10px 40px rgb(3 39 39);
@@ -90,4 +94,37 @@ h2{
 }
 span{
     color: white;
+}
+.footer{
+    width: 100%;
+    margin-top: 50px;
+    box-shadow: -10px 0px 30px black;
+    background: linear-gradient(to bottom right,rgb(45,200,500),teal,rgb(45,200,500));
+}
+.footer .contacts{
+    text-align: center;
+}
+.footer .contacts li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.footer .contacts li a{
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+.footer .contacts li a:hover{
+    color:white;
+}
+.footer .Connect{
+    display:block;
+    text-align: center;
+    padding-top: 20px;
+   font-size: 30px;
+   font-weight: 700;
+   font-family: 'Style Script', cursive;;
 }
